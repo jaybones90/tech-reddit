@@ -1,5 +1,18 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<ul class="nav nav-pills navbar-inverse">
+  <li role="presentation"><a href="/">Home</a></li>
+  <li role="presentation"><a href="contact">Contact</a></li>
+  <li role="presentation"><a href="about">About</a></li>
+  <li role="presentation"><a href="blog">Blog</a></li>
+</ul>
 
-{{outlet}}
+<div class="container">
+  {{outlet}}
+<!-- <div class="bg-img"></div> -->
+
+<footer id="footer">
+  <div class="container-fluid">
+    <a style="color: black;" href="https://github.com/jaybones90"><br>View Github Profile<br><img id="logo" src="img/github-logo.png" alt=""/></a>
+  </div>
+</footer>
+
+</div>
