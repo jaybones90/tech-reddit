@@ -14,15 +14,16 @@
 
         <h4>Additional Notes:</h4>
         <p>{{question.notes}}</p>
+        <button class="btn btn-primary"{{action 'delete' question}}>Delete This Question</button>
       </div>
     </div>
   </div>
 
 
 
-
-<ul>
-  {{#each question.answers as |answer|}}
+  <h2>Answers:</h2>
+  <ul>
+    {{#each question.answers as |answer|}}
     {{answer-tile answer=answer}}
-  {{/each}}
-</ul>
+    {{/each}}
+  </ul>

@@ -1,7 +1,6 @@
-# tech-reddit
+# Tech Reddit
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a simple application that allows a user to enter a question along with the author and notes and then displays all the questions on the homepage. Users also have the ability to answer a question and have the answer displayed alongside the question on a seperate page.
 
 ## Prerequisites
 
@@ -12,41 +11,28 @@ You will need the following things properly installed on your computer.
 * [Bower](https://bower.io/)
 * [Ember CLI](https://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
+* [Watchman]
 
 ## Installation
-
-* `git clone <repository-url>` this repository
+* run the following commands in the terminal
+* `git clone https://github.com/jaybones90/tech-reddit`
 * `cd tech-reddit`
 * `npm install`
 * `bower install`
 
-## Running / Development
 
+## Running / Development
+* run this command in the terminal
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
+## Known Bugs
+* There are no known bugs at this time. Please feel free to send me an email or comment on my github with any found bugs.
 
-Make use of the many generators for code, try `ember help generate` for more details
+##Contact Info
+* Jason Ainsworth
+* Email: jasoncruze@gmail.com
+* Github: https://github.com/jaybones90
 
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+##License
+* MIT © Jason Ainsworth
