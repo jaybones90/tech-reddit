@@ -1,6 +1,6 @@
 # Tech Reddit
 
-This is a simple application that allows a user to enter a question along with the author and notes and then displays all the questions on the homepage. Users also have the ability to answer a question and have the answer displayed alongside the question on a seperate page.
+This is a simple application that allows a user to enter a question along with the author and notes. All the questions will display on the index page and will display more information about the question once clicked. Users also have the ability to answer a question and have the answer displayed alongside.
 
 ## Prerequisites
 
@@ -11,7 +11,7 @@ You will need the following things properly installed on your computer.
 * [Bower](https://bower.io/)
 * [Ember CLI](https://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
-* [Watchman]
+* [Watchman](https://facebook.github.io/watchman/)
 
 ## Installation
 * run the following commands in the terminal
