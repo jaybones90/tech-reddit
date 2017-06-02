@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-#logo {
+.logo {
   width: 100px;
   height: 100px;
 }
@@ -13,5 +13,9 @@
 
 .well {
   /*margin: 10%;*/
+  text-align: center;
+}
+
+#answers {
   text-align: center;
 }
