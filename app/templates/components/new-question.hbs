@@ -1,0 +1,24 @@
+{{#if addNewQuestion}}
+<form>
+
+  <div class="form-group">
+    <label for="question">Question:</label><br>
+    {{textarea cols="70" rows="4" value=question id="question"}}
+  </div>
+
+  <div class="form-group">
+    <label for="notes">Notes:</label><br>
+    {{textarea value=notes cols="70" rows="4" id="notes"}}
+  </div>
+
+  <div class="form-group">
+    <label for="author">Author:</label>
+    {{input value=author id="author"}}
+  </div>
+
+  <button {{action 'saveQuestion'}}>Save</button>
+
+</form>
+{{else}}
+  <button {{action 'showQuestionForm'}}>New Question</button>
+{{/if}}
