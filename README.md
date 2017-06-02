@@ -37,5 +37,5 @@ You will need the following things properly installed on your computer.
 ##License
 * MIT © Jason Ainsworth
 
-![Screenshot 1](/img/screenshot1.png)
-![Screenshot 2](/img/screenshot2.png)
+![Screenshot 1](public/img/screenshot1.png)
+![Screenshot 2](public/img/screenshot2.png)
