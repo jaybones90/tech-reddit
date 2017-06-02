@@ -8,5 +8,14 @@
     "question": "What language should i learn?",
     "author": "Macho Man Randy Savage",
     "notes": "asking for my mom"
+  }],
+  "answers": [{
+    "id": 1,
+    "answer": "all the lanugages",
+    "author": "Jimmy Neutron"
+  }, {
+    "id": 2,
+    "answer": "blah blah blah",
+    "author": "Donald FuckMeSideways Trump"
   }]
 }
