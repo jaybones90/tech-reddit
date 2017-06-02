@@ -1,1 +1,7 @@
-{{outlet}}
+{{new-question saveQuestion='saveQuestion'}}
+
+<ul>
+  {{#each model as |question|}}
+    {{question-tile question=question}}
+  {{/each}}
+</ul>

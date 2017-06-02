@@ -10,12 +10,17 @@ module.exports = function(environment) {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
-      },
-      EXTEND_PROTOTYPES: {
-        // Prevent Ember Data from overriding Date.parse.
-        Date: false
       }
     },
+
+      firebase: {
+        apiKey: "AIzaSyAe2o8YJ-7Axwy0aPqda6bJ-iSt2zDwc4U",
+        authDomain: "tech-reddit.firebaseapp.com",
+        databaseURL: "https://tech-reddit.firebaseio.com",
+        projectId: "tech-reddit",
+        storageBucket: "tech-reddit.appspot.com"
+      },
+
 
     APP: {
       // Here you can pass flags/options to your application instance
