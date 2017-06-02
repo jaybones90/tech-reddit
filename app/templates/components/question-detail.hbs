@@ -1,16 +1,26 @@
 
-<h3>Question</h3>
-<p>{{question.question}}</p>
 
-<h4>Additional Notes:</h4>
-<p>{{question.notes}}</p>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="well">
+        <h3>{{question.question}}</h3>
 
-<h4>Author</h4>
-<h6>{{question.author}}</h6>
+        <h4>Author</h4>
+        <h6>{{question.author}}</h6>
+
+        <h4>Additional Notes:</h4>
+        <p>{{question.notes}}</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <h3>Answers</h3>
 <ul>
-  {{#each model.answers as |answer|}}
+  {{#each question.answers as |answer|}}
     {{answer-tile answer=answer}}
   {{/each}}
 </ul>

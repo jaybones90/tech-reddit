@@ -10,3 +10,8 @@
 .jumbotron {
   text-align: center;
 }
+
+.well {
+  /*margin: 10%;*/
+  text-align: center;
+}
